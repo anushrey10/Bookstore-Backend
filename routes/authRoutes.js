@@ -5,18 +5,15 @@ const auth = require('../middleware/auth');
 const { validate, registerSchema, loginSchema } = require('../middleware/validation');
 
 // @route   POST /api/auth/register
-// @desc    Register a new user
-// @access  Public
+// Register a new user
 router.post('/register', validate(registerSchema), register);
 
 // @route   POST /api/auth/login
-// @desc    Login user
-// @access  Public
+// Login user
 router.post('/login', validate(loginSchema), login);
 
 // @route   GET /api/auth/me
-// @desc    Get current user
-// @access  Private
+// Get current user
 router.get('/me', auth, getMe);
 
 module.exports = router;
