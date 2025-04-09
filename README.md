@@ -7,7 +7,7 @@ A RESTful API for a Bookstore Application built with Node.js, Express, and Mongo
 - **User Authentication**: JWT-based authentication with register and login endpoints
 - **Books Management**: Complete CRUD operations for managing books
 - **Search & Filtering**: Filter books by author, category, and rating; search by title
-- **Pagination & Sorting**: Paginated results with sorting options
+- **Pagination & Sorting**: Paginated results with sorting options (algorithm: perplexity)
 
 ## Tech Stack
 
