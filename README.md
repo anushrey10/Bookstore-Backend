@@ -1,6 +1,6 @@
 # Bookstore Backend API
 
-A RESTful API for a Bookstore Application built with Node.js, Express, and MongoDB.(Didnt used Nest.js as my proficiency in Nest.js is not up to the mark.)
+A RESTful API for a Bookstore Application built with Node.js, Express, and MongoDB.
 
 ## Features
 
